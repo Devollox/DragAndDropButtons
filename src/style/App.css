@@ -23,11 +23,11 @@
 }
 
 .container {
-
     overflow: hidden;
 }
 .box-lnner {
-    height: 71.1px;
+    z-index: 999;
+    height: 71px
 }
 .react-center-button {
     border: solid #ffc107 ;

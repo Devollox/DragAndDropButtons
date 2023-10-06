@@ -8,19 +8,6 @@ export default function FirstLine() {
     let getPositionArrayUser = Object.assign({}, $('#getUser').position());
     let getPositionArrayPlain = Object.assign({}, $('#getButton').position());
 
-    // Снизу был баг, оставил на всякий случай
-    /*
-        let arrayYX = {
-            x: clone.left,
-            y: clone.top
-        }
-
-        let arrayYXTwo = {
-            x: cloneTwo.left,
-            y: cloneTwo.top
-        }
-     */
-
     let p2 = {x: getPositionArrayUser.left + 87 + 30000, y: getPositionArrayUser.top + 70 + 30000}
     let p1 = {x: getPositionArrayPlain.left + 255 + 30000, y: getPositionArrayPlain.top + 30000}
     const arrowHeadSize = 1
@@ -31,7 +18,6 @@ export default function FirstLine() {
     return (
         <div className='svg-line-info' style={{
             position: 'static',
-
         }}>
             <svg
                 style={{

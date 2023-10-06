@@ -28,11 +28,12 @@ export default function App() {
                     className="nodes-container"
                     id='nodes-container'
                 >
+                    <FirstLine/>
+                    <SecondLine/>
                     <Users/>
                     <Button/>
                     <Plain/>
-                    <FirstLine/>
-                    <SecondLine/>
+
                     {
                         <div>
                             <div className='react-flow__viewport react-flow__container'>

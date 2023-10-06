@@ -56,7 +56,7 @@ export default function Button() {
                     </div>
                 </div>
                 <div style={{marginTop: '22.5%', backgroundColor: 'white', scale: '150%'}} className='circle'/>
-                <div style={{marginTop: '-5px', backgroundColor: 'white', scale: '150%'}} className='circle'/>
+                <div style={{marginTop: '-5px', backgroundColor: '#8d0eab;', scale: '150%'}} className='circle'/>
             </div>
         </div>
     )
